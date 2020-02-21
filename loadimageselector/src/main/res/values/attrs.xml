@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingImageSelector">
+        <attr name="lis_text" format="string"/>
+        <attr name="lis_text_style">
+            <enum name="normal" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+        </attr>
+        <attr name="lis_text_size" format="dimension"/>
+        <attr name="lis_text_color" format="reference"/>
+        <attr name="lis_state">
+            <enum name="loading" value="0" />
+            <enum name="show" value="1" />
+        </attr>
+        <attr name="lis_selected" format="boolean"/>
+        <attr name="lis_image_selector" format="reference"/>
+        <attr name="lis_image_size" format="dimension"/>
+    </declare-styleable>
+</resources>

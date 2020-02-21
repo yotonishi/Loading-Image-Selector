@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lis_progress_bar_start">#000000</color>
+    <color name="lis_progress_bar_end">#ffffff</color>
+</resources>
