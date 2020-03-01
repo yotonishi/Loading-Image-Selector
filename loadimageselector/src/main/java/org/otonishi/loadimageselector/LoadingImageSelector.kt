@@ -257,7 +257,6 @@ class LoadingImageSelector : LinearLayout {
         state = State.Show
         progressBar?.visibility = View.INVISIBLE
         selectorImageView?.visibility = View.VISIBLE
-        selectorImageView!!.isSelected = !selectorImageView!!.isSelected
     }
 
     fun setCallback(callback: LoadingImageSelectorInterface) {
