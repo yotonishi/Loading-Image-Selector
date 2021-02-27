@@ -1,10 +1,11 @@
-package org.otonishi.example.loadingimageselector
+package com.otonishi.example.loadingimageselector
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import org.otonishi.example.loadingimageselector.databinding.ActivityMainBinding
-import org.otonishi.loadimageselector.LoadingImageSelector
+import com.otonishi.loadimageselector.LoadingImageSelector
+import org.otonishi.example.loadingimageselector.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -34,6 +35,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun switchFavorite(atEnd: () -> Unit) {
         isFavorite = !isFavorite
+        binding.imageSelector.setSelectorSelected(isFavorite)
         atEnd()
     }
 }

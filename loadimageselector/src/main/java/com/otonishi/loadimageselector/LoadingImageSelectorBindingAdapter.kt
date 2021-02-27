@@ -1,4 +1,4 @@
-package org.otonishi.loadimageselector
+package com.otonishi.loadimageselector
 
 import androidx.databinding.BindingAdapter
 

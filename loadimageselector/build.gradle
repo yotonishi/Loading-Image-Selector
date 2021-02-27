@@ -43,7 +43,7 @@ dependencies {
 
 publish {
     userOrg = 'yotonishi'
-    groupId = 'org.otonishi'
+    groupId = 'com.otonishi'
     artifactId = 'LoadingImageSelector'
     publishVersion = '0.1.1'
     desc = 'show loading during logic'
